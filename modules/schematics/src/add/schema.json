@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "SchematicsNgRxState",
+  "title": "NgRx State Management Options Schema",
+  "type": "object",
+  "properties": {
+    "defaultCollection": {
+      "description": "Default schematics collection",
+      "type": "boolean",
+      "default": false,
+      "x-prompt": "Use @ngrx/schematics as the default collection"
+    }
+  },
+  "required": []
+}
